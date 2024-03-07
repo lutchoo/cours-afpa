@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <style>
+        ul{
+            width: 90%;
+            list-style: none;
+            
+            height: 100%;
+        }
+
+        li ul{
+
+            padding: 5px;
+            text-align: left;
+            background-color: grey;
+            display: flex;
+            flex-direction: column;
+            font: optional;color: aliceblue;
+        }
+
+        #menu{
+            position: absolute;
+        }
+
+        #menu li{
+            position:relative;
+            overflow: hidden;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        
+        }
+
+     
+        img:hover{
+            padding-left: 80px;
+            transform: rotate(90deg);
+        }
+
+        #menu li img{
+            transition: linear 1s;
+            position: absolute;
+            top: 0;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <article></article>
+    <br>
+    <div></div>
+    <br>
+    <section></section>
+
+    <ul id="menu">
+        <li id="item1">
+            <ul>
+                <li>Bebes</li>
+                <li>Grossesse</li>
+                <li>Naissance</li>
+            </ul>
+            <a href="">
+                <img src="Menu animé en CSS_files/1.jpg" alt="">
+            </a>
+
+        </li>
+        <li id="item2">
+            <ul>
+                <li>Portraits</li>
+                <li>Famille</li>
+                <li>evenement</li>
+            </ul>
+            <a href="">
+                <img src="Menu animé en CSS_files/2.jpg" alt="">
+            </a>
+        </li>
+        <li id="item3">
+            <ul>
+                <li>Mariages</li>
+                <li>Ceremonie</li>
+                <li>Baptemes</li>
+                <li>Bar-mitzvah</li>
+            </ul>
+            <a href="">
+                <img src="Menu animé en CSS_files/3.jpg" alt="">
+            </a>
+        </li>
+        <li id="item4">
+            <ul>
+                <li>Sport</li>
+                <li>Manifestation</li>
+                <li>Reportages</li>
+            </ul>
+            <a href="">
+                <img src="Menu animé en CSS_files/4.jpg" alt="">
+            </a>
+        </li>
+        <li id="item5">
+            <ul>
+                <li>Lifestyle</li>
+                <li>Studio</li>
+                <li>Divers</li>
+            </ul>
+            <a href="">
+                <img src="Menu animé en CSS_files/5.jpg" alt="">
+            </a>
+        </li>
+    </ul>
+</body>
+</html>

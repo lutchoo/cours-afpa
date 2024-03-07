@@ -1,0 +1,40 @@
+article:hover{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+article{
+    width: 100px;
+     height: 100px;
+    background-color: #ff0000;
+    transition: width 2s, height 2s
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    transform: rotate(50deg);
+}
+
+section{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: width 2s, height 2s, background 2s;
+    transition-timing-function: ease-in;
+}
+
+section:hover{
+    width: 300px;
+    height: 300px;
+    background-color: #ff0000;
+}

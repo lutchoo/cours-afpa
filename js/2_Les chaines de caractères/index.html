@@ -1,0 +1,34 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les chaines de caractères</title>
+</head>
+<body>
+
+        <input id="name" type="text" placeholder="Votre nom">
+        <button onclick="getUsrValue()">Envoyer</button>
+        <input id="email" type="email" placeholder="Votre mail">
+        <button onclick="getUsrEmail()">Envoyer</button>
+
+    <script>
+        function myfunction(){
+            let name = document.getElementById('name').value;
+            let at = document.getElementById('email').value.indexOf("@");
+            submitOK = "true";
+        }
+        if(name.length > 10){
+            alert("the name may have no more than 10 characters");
+            submitOK = "false";
+        }
+        if(at == -1){
+            alert('not a valid email');
+            submitOK ="false";
+        }
+        if(submitOK == 'false'){
+            return false ;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

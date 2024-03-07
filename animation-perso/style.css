@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #d9edfd;
+  
+  overflow: hidden;
+}
+
+.layer-1 {
+  position: absolute;
+  z-index: 6;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/1.png) 0 100% repeat-x;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 136px;
+}
+
+.layer-2 {
+  position: absolute;
+  z-index: 5;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/2.png) 0 100% repeat-x;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 145px;
+  animation: move-1 5s linear infinite 
+
+}
+
+.layer-3 {
+  position: absolute;
+  z-index: 4;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/3.png) 0 100% repeat-x;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 158px;
+  
+  
+}
+
+.layer-4 {
+  position: absolute;
+  z-index: 3;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/4.png) 0 100% repeat-x;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 468px;
+  
+}
+
+.layer-5 {
+  position: absolute;
+  z-index: 2;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/5.png) 0 100% repeat-x;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 311px;
+   
+
+}
+
+.layer-6 {
+  position: absolute;
+  z-index: 1;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/6.png) 0 100% repeat-x;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 222px;
+}
+
+/*Gif lune fixe*/
+.layer-6b {
+  z-index: 1;
+  position: absolute;
+  z-index: 0;
+  background: url("b4539dea.gif") 0 100% no-repeat;
+  bottom: 300px;/*positionnement haut bas*/
+  left: 250px; /*positionnement depart a gauche*/
+  width: 100%;
+  height: 100%;
+  background-size: auto 100px; /*taille du gif*/
+}
+
+.bike-1 {
+  z-index: 7;
+  background: url("Mario.gif") 0 100% no-repeat;
+  
+  bottom: 100px; /*Position haut bas du perso*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 50px; /*taille perso */
+}
+
+.bike-2 {
+  z-index: 3;
+  background: url("Pikachu.gif") 0 100% no-repeat;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 100px;
+}
+
+.bike-3 {
+  z-index: 5;
+  background: url("BB8.gif") 0 100% no-repeat;
+  bottom: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 70px;
+}
+
+.bike-4 {
+  z-index: 8;
+  background: url("oiseaux.gif") 0 100% no-repeat;
+  bottom: 300px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto 70px;
+}
+
+@keyframes move-1{
+  from { background-position: right
+
+  }
+
+  to {
+    background-position: left
+  }
+}

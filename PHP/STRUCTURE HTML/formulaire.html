@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <header>
+        <article>
+            <img src="img/LOGO-AFPA-VERT-PNG.png" alt="logo" style="width: 15%;margin-left: 150px;" >
+        </article>
+    </header>
+    <main style="height: 80vh;">
+        <form style="border:1px solid green;height: 61vh;margin: auto; width: 80%;background-color: aliceblue; border-radius: 10px;">
+            <article style="width:50%;text-align: center;float: left;">
+
+            <label for="fname"></label><br>
+            <input type="text" id="fname" placeholder="Nom-Prenom" style="width: 90%;height: 30px; background-color: gainsboro;"><br>
+            <label for="mail"></label><br>
+            <input type="email"id="mail" placeholder="courriel" style="width: 90%;height: 30px; background-color: gainsboro; "><br>
+            <label for="tel"></label><br>
+            <input type="tel" placeholder="Telephone" style="width: 90%;height: 30px; background-color: gainsboro;">
+            <label for="Ve"></label><br>
+            <select id="Ve" name="Ve" style="width: 91%;height: 30px; margin-top: 20px;background-color: gainsboro;">
+                <option value="">Vous etes...</option>
+                <option value="Developpeur web">Developpeur web</option>
+                <option value="Techninicien reseaux">Technicien reseaux</option>
+                <option value="Chef de projet">Chef de projet</option>
+            </select><br>
+            <textarea name="message" cols="30" rows="10" style="width: 90%; margin-top: 20px; background-color: gainsboro;" > 
+                Commentaire
+            </textarea><br>
+            
+            </article>
+            <article style="width:50%;float:left;height:336px;">
+
+                <p style="text-transform: uppercase; font-weight: 900; width: 90%;">Quelle est la meilleure maniere de vous contacter ?</p>
+                <input type="radio" id="tel" name="fav" value="Telephone">
+                <label for="tel">Telephone</label><br>
+                <input type="radio" id="email" name="fav" value="Courriel">
+                <label for="email">Courriel</label><br>
+                <p style="text-transform: uppercase;font-weight: 900;width: 90%;">Jour de la semaine ou vous etes disponible :</p>
+                <input type="checkbox" id="lun" name="lun" value="lundi">
+                <label for="lun">Lundi</label><br>
+                <input type="checkbox" id="mar" name="mar" value="mardi">
+                <label for="mar">Mardi</label><br>
+                <input type="checkbox" id="mer" name="mer" value="mercredi">
+                <label for="mer">Mercredi</label><br>
+                <input type="checkbox" id="jeu" name="jeu" value="jeudi">
+                <label for="jeu">Jeudi</label><br>
+                <input type="checkbox" id="ven" name="ven" value="vendredi">
+                <label for="ven">Vendredi</label><br>
+
+                <p style="text-transform: uppercase;font-weight: 900;width: 90%;">Heure appropriee pour un rendez-vous :</p>
+                <input type="radio" id="matin" name="pref" value="matin">
+                <label for="matin">Matin</label><br>
+                <input type="radio" id="aprem" name="pref" value="apres-midi">
+                <label for="aprem">Apres-midi</label><br>
+                
+
+                    
+            </article>
+            
+            <article style="width: 100%; float: left;text-align: center;; padding-top: 30px; ">
+                <hr style="margin-left: 50px;margin-right: 50px;"><br>
+                <input type="submit" value="Envoyer" style="width: 93%;height: 50px; background-color: rgb(4, 188, 4); margin-top: 30px;"><br>
+            </article><br>
+                
+
+                
+                
+
+                
+
+
+        </form>
+            
+
+    </main>
+
+</body>
+</html>

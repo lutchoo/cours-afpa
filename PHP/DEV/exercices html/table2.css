@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 10px;
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+   
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: ghostwhite;
+}
